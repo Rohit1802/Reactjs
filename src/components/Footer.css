@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;1,500&family=ZCOOL+XiaoWei&family=Zilla+Slab:wght@300;400;500;600&display=swap');
+
+.footer-main .info{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.footer-main .info , .footer-main .Links , .footer-main .social-info{
+    flex: 1;
+}
+
+.footer-main{
+    display: flex;
+    /* align-items: center; */
+    margin: 5rem auto;
+    gap: 40px;
+    justify-content: center;
+}
+
+.footer-main .info .info-para {
+    padding: 1rem 0;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.footer-main .info .info-para p{
+    font-family: Zilla slab;
+    color: #555555;
+}
+
+.footer-main .info  .info-box{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-weight: 400;
+    color: #555555;
+}
+
+.footer-main .info  .info-box .icon{
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.footer-main .info  .info-box p{
+    font-family: Zilla slab;
+}
+
+.footer-main .Links{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.footer-main .Links h3{
+    font-family: Zilla slab;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.footer-main .Links li:last-child{
+    margin: 0;
+}
+
+.footer-main .Links li{
+    margin: 0.5rem 0;
+}
+
+.footer-main .Links a{
+    color: #555555;
+    font-size: 0.9rem;   
+}
+
+.footer-main .Links a:hover{
+    color: #262626;
+}
+
+
+.social-info h3{
+    font-weight: 400;
+    font-size: 1.8rem;
+    font-family: Zilla slab;
+    margin-bottom: 0.5rem;
+}
+
+.social-info .social-info__main, .social-info .social-info__secondary{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.social-info .social-info__main .location,
+ .social-info .social-info__secondary .location{
+    font-size: 1.5rem;
+}
+
+.social-info .social-info__main, .social-info .social-info__secondary{
+    padding-bottom: 1.5rem;
+    gap: 10px;
+}
+
+.social-info .social-info__main .address, 
+.social-info .social-info__secondary .address{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+} 
+
+.social-info .social-info__main .address h4, 
+.social-info .social-info__secondary .address h4{
+    text-align: left;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #555555;
+}
+
+.social-info .social-info__main .address p, 
+.social-info .social-info__secondary .address p{
+    text-align: left;
+    font-weight: 400;
+    font-size: 0.9rem;
+    color: #555555;
+}
+
+
+@media  screen and (max-width:768px) {
+    .footer-main{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-main .Links{
+        display: flex;
+    }
+}
