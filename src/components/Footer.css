@@ -15,6 +15,7 @@
     display: flex;
     /* align-items: center; */
     margin: 5rem auto;
+    margin-bottom: 0;
     gap: 40px;
     justify-content: center;
 }
@@ -135,5 +136,7 @@
 
     .footer-main .Links{
         display: flex;
+        align-items: flex-start;
+        text-align: left;
     }
 }

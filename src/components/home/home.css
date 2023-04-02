@@ -39,7 +39,7 @@
 
 /* product section starts here */
 .container{
-    width: 90%;
+    width: 85%;
     margin: 0 auto;
     text-align: center;
 }
@@ -333,6 +333,9 @@
 }
  
 @media screen and (max-width:768px) {
+    .hours .hours--info .Rightblock .text-block{
+        width: 90%;
+    } 
     .mail-box{
         display: flex;
         flex-direction: column;

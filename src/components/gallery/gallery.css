@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;1,500&family=ZCOOL+XiaoWei&display=swap');
+
+.gallery{
+    width: 100%;
+    height: 80vh;
+    background-image: url(../../img/imgContact/Rectangle\ 4\ \(2\).svg);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    object-fit: cover;
+}
+
+.gallery .gallery--text{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.gallery .gallery--text span{
+    font-family: 'ZCOOL XiaoWei', sans-serif;
+    font-weight: 300;
+    font-size: 5rem;
+}
+
+@media screen and (max-width:768px){
+    .gallery .gallery--text span{
+        font-size: 3.5rem !important;
+    }
+}
+
+.GalleryImage{
+    background: #FFFBF2;
+}
+
+.GalleryImage .headerText h3{
+    font-weight: 400;
+    font-family: Zilla slab;
+    font-size: 2rem;
+}
+
+.GalleryImage .headerText span{
+    font-weight: 400;
+    font-family: Zilla slab;
+    font-size: 2rem;
+    color: #FF0101;
+}
+
+.GalleryImage .container{
+    padding: 3rem 0;
+}
+
+.ImageGallery{
+   margin: 2rem auto;
+}
+
+.ImageGallery .MainComponent{
+    margin: 0 auto;
+    display: center;
+}
+
+.ImageGallery .MainComponent .level1,
+.ImageGallery .MainComponent .level2,
+.ImageGallery .MainComponent .level3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin: 1rem 0;
+}
+
+
+.ImageGallery .MainComponent .level1 img,
+.ImageGallery .MainComponent .level2 img,
+.ImageGallery .MainComponent .level3 img{
+    width: 320px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #333;
+    margin: 0.8rem 0;
+}
+
+.ImageGallery img:hover{
+    transform: scale(1.05);
+    transition: all 0.5s ease;
+}
+
+.ImageGallery .MainComponent p{
+    font-weight: 500;
+    color: rgba(0,0,0,0.63);
+    font-size: 0.9rem;
+}
+
+@media screen and (max-width:768px){
+    .ImageGallery .MainComponent .level1,
+    .ImageGallery .MainComponent .level2,
+    .ImageGallery .MainComponent .level3{
+    gap: 10px;
+  }
+}
+
+
+.GalleryInfo{
+    width: 100%;
+    background: #F4F4F4;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+    /* position: relative; */
+}
+
+.GalleryInfo .drinkImg img{
+    width: 300px;
+}
+
+.GalleryInfo .info p{
+    text-align: center;
+    font-family: Zilla slab;
+    font-weight: 500;
+    color: rgba(0,0,0,0.70);
+    font-size: 1.5rem;
+}
+
+.GalleryInfo .fruitImg img{
+    width: 350px;
+}
+
+@media screen and (max-width:768px) {
+    .GalleryInfo .drinkImg img{
+        width: 180px;
+        padding-bottom: 1rem;
+    }
+
+    .GalleryInfo .fruitImg img{
+        width: 300px;
+    }
+
+    .GalleryInfo{
+        width: 100%;
+        background: #F4F4F4;
+        display:flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-bottom: 2rem;
+    }
+}
+
+
+/* galleryPic */
+.GalleryPics{
+    margin: 0 auto;
+    padding: 5rem 0;
+    background: #FFFBF2;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px , 1fr));
+    gap: 50px;
+}
+
+.grid-container img{
+    object-fit: cover;
+    width: 320px;
+    height: 300px;
+
+}
+

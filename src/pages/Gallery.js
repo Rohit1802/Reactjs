@@ -1,11 +1,19 @@
 import React from 'react'
-// import Navbar from '../reusable/Navbar'
+import Footer from '../components/Footer'
+import GalleryCompo from '../components/gallery/GalleryCompo'
+import GalleryImages from '../components/gallery/GalleryImages'
+import GalleryInfo from '../components/gallery/GalleryInfo'
+import GalleryPics from '../components/gallery/GalleryPics'
+
 
 function Gallery() {
   return (
     <div>
-        {/* <Navbar/> */}
-        <h1>Gallery page</h1>
+        <GalleryCompo/>
+        <GalleryImages/>
+        <GalleryInfo/>
+        <GalleryPics/>
+        <Footer/>
     </div>
   )
 }
