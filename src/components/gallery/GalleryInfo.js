@@ -1,7 +1,7 @@
 import React from "react";
 import "./gallery.css";
-import Cocktail from '../../img/imgContact/cocktail.svg'
-import Drink from "../../img/imgContact/mix g.svg";
+import Cocktail from '../../img/imgGallery/cocktail.svg'
+import Drink from "../../img/imgGallery/mix g.svg";
 
 function GalleryInfo() {
     return (

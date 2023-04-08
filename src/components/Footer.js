@@ -2,7 +2,7 @@ import React from 'react'
 import Logo from '../img/Logo.svg'
 import { FiPhoneCall } from "react-icons/fi";
 import { IoLocationSharp } from 'react-icons/io5'
-import { FaIndustry } from 'react-icons/fa'
+import { FaFacebook, FaIndustry, FaInstagram, FaTwitter } from 'react-icons/fa'
 import './Footer.css'
 
 function Footer() {
@@ -72,6 +72,22 @@ function Footer() {
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+            <div className="footer--bottomline">
+                <div className='bottomlinks'>
+                    <div className='box1'>
+                        <FaFacebook className='icon' />
+                    </div>
+                    <div className='box2'>
+                        <FaInstagram className='icon' />
+                    </div>
+                    <div className='box3'>
+                        <FaTwitter className='icon' />
+                    </div>
+                </div>
+                <div className='bottom--text'>
+                    © 2023 Sanvee Flavours | Designed & developed by 5TechG Lab
                 </div>
             </div>
         </div>

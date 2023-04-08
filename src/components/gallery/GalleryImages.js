@@ -1,13 +1,13 @@
 import React from 'react'
-import Image1 from '../../img/imgContact/g1.svg'
-import Image2 from '../../img/imgContact/g2.svg'
-import Image3 from '../../img/imgContact/g3.svg'
-import Image4 from '../../img/imgContact/g4.svg'
-import Image5 from '../../img/imgContact/g5.svg'
-import Image6 from '../../img/imgContact/g6.svg'
-import Image7 from '../../img/imgContact/g7.svg'
-import Image8 from '../../img/imgContact/g8.svg'
-import Image9 from '../../img/imgContact/Rectangle 4 (2).svg'
+import Image1 from '../../img/imgGallery/g1.svg'
+import Image2 from '../../img/imgGallery/g2.svg'
+import Image3 from '../../img/imgGallery/g3.svg'
+import Image4 from '../../img/imgGallery/g4.svg'
+import Image5 from '../../img/imgGallery/g5.svg'
+import Image6 from '../../img/imgGallery/g6.svg'
+import Image7 from '../../img/imgGallery/g7.svg'
+import Image8 from '../../img/imgGallery/g8.svg'
+import Image9 from '../../img/imgGallery/Rectangle 4 (2).svg'
 
 function GalleryImages() {
     return (

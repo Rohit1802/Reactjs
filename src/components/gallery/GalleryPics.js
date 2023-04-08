@@ -1,10 +1,10 @@
 import React from 'react'
-import Image1 from '../../img/imgContact/Rectangle 311.svg'
-import Image2 from '../../img/imgContact/Rectangle 328.svg'
-import Image3 from '../../img/imgContact/Rectangle 331.svg'
-import Image4 from '../../img/imgContact/Rectangle 332.svg'
-import Image5 from '../../img/imgContact/Rectangle 334.svg'
-import Image6 from '../../img/imgContact/Rectangle 335.svg'
+import Image1 from '../../img/imgGallery/Rectangle 311.svg'
+import Image2 from '../../img/imgGallery/Rectangle 328.svg'
+import Image3 from '../../img/imgGallery/Rectangle 331.svg'
+import Image4 from '../../img/imgGallery/Rectangle 332.svg'
+import Image5 from '../../img/imgGallery/Rectangle 334.svg'
+import Image6 from '../../img/imgGallery/Rectangle 335.svg'
 
 function GalleryPics() {
     return (

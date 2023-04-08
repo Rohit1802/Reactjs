@@ -39,7 +39,7 @@
 
 /* product section starts here */
 .container{
-    width: 85%;
+    width: 90%;
     margin: 0 auto;
     text-align: center;
 }
@@ -130,9 +130,6 @@
     padding: 3rem 0;
 }
 
-.trending--list .product-data img{
-    width: 190px;
-}
 
 .trending--list .product-data .data{
     padding: 10px 0;
@@ -153,7 +150,7 @@
     }
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:768px){
     .trending--list{
         gap: 30px;
     }

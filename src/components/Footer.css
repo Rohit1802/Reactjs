@@ -15,7 +15,7 @@
     display: flex;
     /* align-items: center; */
     margin: 5rem auto;
-    margin-bottom: 0;
+    margin-bottom: 3rem;
     gap: 40px;
     justify-content: center;
 }
@@ -84,6 +84,7 @@
     font-size: 1.8rem;
     font-family: Zilla slab;
     margin-bottom: 0.5rem;
+    text-align: start;
 }
 
 .social-info .social-info__main, .social-info .social-info__secondary{
@@ -115,7 +116,7 @@
 .social-info .social-info__secondary .address h4{
     text-align: left;
     font-weight: 500;
-    font-size: 1rem;
+    font-size: 0.9rem;
     color: #555555;
 }
 
@@ -128,6 +129,7 @@
 }
 
 
+
 @media  screen and (max-width:768px) {
     .footer-main{
         display: flex;
@@ -137,6 +139,51 @@
     .footer-main .Links{
         display: flex;
         align-items: flex-start;
+        justify-content: center;
         text-align: left;
+    }
+
+}
+
+.footer--bottomline{
+    background-color:  rgba(230, 41, 41, 0.78);
+    color: #fff;
+    font-weight: 500;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.footer--bottomline .bottomlinks{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.footer--bottomline .bottomlinks .box1,
+.footer--bottomline .bottomlinks .box2,
+.footer--bottomline .bottomlinks .box3{
+    background-color: rgba(254, 189, 17, 1);
+    padding: 8px;
+    border-radius: 20px;
+}
+
+.footer--bottomline .icon{
+    font-size: 1.1rem;
+}
+
+.footer--bottomline .bottom--text{
+    text-align: center;
+}
+
+
+@media screen and (max-width:768px) {
+    .footer--bottomline{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
     }
 }

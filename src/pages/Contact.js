@@ -1,11 +1,20 @@
 import React from 'react'
+import ContactMain from '../components/contact/ContactMain'
+import Footer from '../components/Footer'
+import ContactSub from '../components/contact/ContactSub'
+import ContactForm from '../components/contact/ContactForm'
+import ContactMap from '../components/contact/ContactMap'
 // import Navbar from '../reusable/Navbar'
 
 function Contact() {
   return (
     <div>
         {/* <Navbar/> */}
-        <h1>Contact page</h1>
+        <ContactMain/>
+        <ContactSub/>
+        <ContactForm/>
+        <ContactMap/>
+        <Footer/>
     </div>
   )
 }
