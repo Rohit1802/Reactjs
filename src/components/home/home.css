@@ -255,6 +255,65 @@
     }
 }
 
+.Best--slider{
+    background-image: url('../../img/imgHome/burger.svg');
+    height: 90vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.slider{
+    background-image: url('../../img/imgHome/BackgroundImage.svg');
+    height: 80vh;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.testimonial .header__content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    margin:5rem auto;
+    gap: 30px;
+}
+
+.testimonial .box .Img__header img{
+    width: 100px;
+}
+
+.testimonial .box h3{
+    font-size: 2rem;
+    font-family: 'Mitr';
+    letter-spacing: 1px;
+    font-weight: 500;
+    padding-top: 1rem;
+}
+
+.testimonial .box p{
+    font-size: 1rem;
+    color: gray;
+    font-weight: 300;
+    font-family: 'Mitr';
+}
+
+.testimonial .header__content .img__profile{
+    width: 100px;
+}
+
+@media screen and (max-width:768px) {
+    .testimonial .header__content{
+        display: flex;
+        flex-direction: column;
+        margin: 2rem auto;
+        width: 75%;
+    }
+
+    .testimonial .header__content h4{
+        padding:1rem 0;
+    }
+}
+
 .SendUs{
     width: 100%;
     background: #F4F4F4;

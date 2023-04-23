@@ -7,6 +7,8 @@ import Sendus from '../components/home/Sendus'
 import Trending from '../components/home/Trending'
 import Navbar from '../components/Navbar'
 import Header from '../components/Header'
+import Bestus from '../components/home/Bestus'
+import Testimonial from '../components/home/Testimonial'
 
 function Home() {
   return (
@@ -17,6 +19,8 @@ function Home() {
         <Products/>
         <Trending/>
         <Hours/>
+        <Bestus/>
+        <Testimonial/>
         <Sendus/>
         <Footer/>
     </div>
