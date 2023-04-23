@@ -4,12 +4,14 @@ import Footer from '../components/Footer'
 import ContactSub from '../components/contact/ContactSub'
 import ContactForm from '../components/contact/ContactForm'
 import ContactMap from '../components/contact/ContactMap'
-// import Navbar from '../reusable/Navbar'
+import Navbar from '../components/Navbar'
+import Header from '../components/Header'
 
 function Contact() {
   return (
     <div>
-        {/* <Navbar/> */}
+        <Header/>
+        <Navbar/>
         <ContactMain/>
         <ContactSub/>
         <ContactForm/>

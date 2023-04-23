@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;1,500&family=ZCOOL+XiaoWei&display=swap');
+
+.about-us{
+    width: 100%;
+    height: 80vh;
+    background-image: url(../../img/imgAbout/about.svg);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    object-fit: cover;
+}
+
+.about-us .about--text{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8rem;
+    font-family: 'ZCOOL XiaoWei', sans-serif;
+    font-weight: 500;
+    font-size: 5rem;
+}
+
+
+@media screen and (max-width:768px){
+    .about-us .about--text{
+        font-size: 3.5rem;
+    }
+}
+
+.AboutSub{
+    background-color: #FFFBF2;
+}
+
+.AboutSub .header__box{
+    padding-top: 2rem;
+}
+
+.AboutSub .header__box h3{
+    font-weight: 400;
+    font-size: 3rem;
+    font-family: ZCOOL XiaoWei;
+    color:  rgba(230, 41, 41, 1);
+}
+
+.AboutSub .header__box p{
+    font-weight: 500;
+    color:  rgba(0, 0, 0, 1);
+    font-family: Zilla slab;
+    font-size: 0.9rem;
+}
+
+.AboutSub__info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:5rem 0;
+}
+
+.AboutSub__info .wrapper__img img{
+    width: 400px;
+    height: 400px;
+}
+
+.AboutSub__info .wrapper__text{
+    width: 400px;
+    height: 400px;
+    background-color: #fff;
+    padding: 2rem;
+    box-shadow: 0px 1px 8px #767676;
+    transform: translate(-4rem , 2rem);
+    border-radius: 5px;
+}
+
+.AboutSub__info .text-1{
+    background-color: #fff;
+    padding: 2rem;
+    box-shadow: 0px 1px 8px #767676;
+    transform: translate(2rem , -4rem);
+    border-radius: 5px;
+    width: 400px;
+    height: 400px;
+}
+
+.AboutSub__info .wrapper__text span{
+    border-left: 4px solid red;
+}
+
+.AboutSub__info .wrapper__text h3{
+    font-size: 2rem;
+    font-family: ZCOOL XiaoWei;
+    display: flex;
+    gap: 10px;
+    text-align: left;
+}
+
+.AboutSub__info .wrapper__text p{
+    padding: 1.8rem 0;
+    font-family: Mitr;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.53);
+}
+
+
+@media screen and (max-width:768px){
+    .AboutSub__info{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .info-1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+
+    .AboutSub__info .wrapper__img img,
+    .AboutSub__info .wrapper__text{
+        width: 350px;
+        height: auto;
+    }
+
+    .AboutSub__info .wrapper__text{
+       transform: translateY(-2rem);
+       padding: 2rem;
+    }
+
+    .AboutSub__info{
+        padding: 1.5rem 0;
+    }
+}
+
+
+.team__header{
+   margin: 1rem 0;
+}
+
+.team__header h1{
+    margin-top: 3rem;
+}
+
+.team__header h1, .team__header span{
+    font-family: ZCOOL XiaoWei;
+    font-weight: 300;
+    font-size: 2.5rem;
+}
+
+.team__header span{
+    margin-right: 0.8rem;
+    color:rgba(255, 1, 1, 0.78);
+}
+
+.team__header h3{
+    font-family: Zilla slab;
+    padding: 1rem 0;
+    font-size: 2rem;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.slider__info{
+    margin: 3rem 2rem;
+    border-right: 2px solid rgba(64, 74, 101, 0.51);
+    padding-right: 2rem;
+}
+
+.slider__info .Img img{
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem auto;
+}
+
+.slider__info .Data{
+    background: rgba(254, 189, 17, 1);
+    color: #fff;
+    padding: 0.5rem 2rem;
+    border-radius: 0.5rem;
+    box-shadow:0px 2px 5px rgba(64, 74, 101, 0.51);
+}
+
+.slider__info .text p{
+    color: rgba(0, 0, 0, 0.55);
+    font-weight: 400;
+    font-size: 0.9rem;
+    padding: 0.7rem 0;
+}
+
+.slider__info .Data h4{
+    font-size: 1.1rem;
+    padding: 0.5rem 0;
+}
+
+.slider__info .Data h4, .slider__info .Data h5{
+    font-family:  ZCOOL XiaoWei;
+    font-weight: 300;
+}
+
+.slider__info .social__links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 0;
+    gap: 12px;
+}
+
+.slider__info .social__links .links{
+    padding: 0.5rem;
+    background-color: rgba(254, 189, 17, 1);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.55);
+}
+
+.slider__info .social__links .links:hover {
+    box-shadow: 0px 2px 5px rgb(230, 173, 15);
+}
+
+.swiper {
+   width: 100%;
+   height: 100%;
+}
+  
+.swiper-slide {
+   text-align: center;
+   font-size: 18px;
+   background: #fff;
+  
+    /* Center slide text vertically */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+  
+.swiper-slide img {
+   display: block;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+
+@media screen and (max-width:768px) {
+    .slider__info{
+        border:0;
+        padding:0;
+    }
+
+    .team__header h3{
+        width: 90%;
+        font-weight: 400;
+    }
+}
+
+.AboutWord{
+    background-image: url('../../img/imgAbout/words.svg');
+    height: 90vh;
+    background-position: center center;
+    margin-top: 4rem;
+}
+
+.AboutWord__text h1{
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+    color: rgba(254, 189, 17, 1);
+    font-family: ZCOOL XiaoWei;
+    font-size: 48px;
+    font-weight: 400;
+    letter-spacing: 0em;
+}
+
+.AboutWord__text h3{
+    font-family: 'Mitr';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    color: #fff;
+}
+
+.AboutWord__content{
+    width: 60%;
+    margin: 2rem auto;
+    color: #fff;
+}
+
+.AboutWord__text p{
+    font-family: 'Mitr';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.AboutWord__content .testimonial{
+    color:rgba(254, 189, 17, 1);
+    padding: 2.5rem 0;
+    font-weight: 500;
+}
+
+@media screen and (max-width:768px) {
+    .AboutWord__content{
+        width: 85%;
+    }
+}
+
+.tagline{
+    background-color:rgba(254, 189, 17, 1);
+    padding: 1.2rem 0;
+    color: #fff;
+}
+
+.tagline__info{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.tagline__info h4{
+    font-family: Zilla Slab;
+    font-size: 1.4rem;
+}
+
+.tagline__info .btn__primary{
+    color: rgba(254, 189, 17, 1);
+    background-color: #fff;
+    padding: 12px 20px;
+    outline: none;
+    border-radius: 16px;
+    border: none;
+    transition: 0.5s all ease-in-out;
+}
+
+.tagline__info .btn__primary:hover{
+    color:  #fff;
+    font-weight: 500;
+    outline: 1px solid rgba(254, 189, 17, 1);
+    border: 1px solid rgba(254, 189, 17, 1);
+    background: transparent;
+}
+
+@media screen and (max-width:768px) {
+    .tagline__info{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap:10px;
+    }
+
+    .tagline__info .btn__primary{
+        padding: 8px 16px;
+    }
+}

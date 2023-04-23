@@ -1,0 +1,187 @@
+
+.ProductMain__container{
+    background-color:rgba(255, 1, 1, 1);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80vh;
+}
+
+.ProductMain__container .Image__juicy img{
+    width: 350px;
+}
+
+.ProductMain__container .Image__cart{
+    align-self: flex-end;
+    justify-content: flex-end;
+}
+
+.ProductMain__container .Image__cart img{
+    width: 600px;
+}
+
+.Product__menu h1{
+    background-color: #000;
+    color: #fff;
+    font-family: ZCOOL XiaoWei;
+    padding: 1rem 2rem;
+}
+
+.Product__menu span{
+    border-left: 4px solid #fff;
+    margin-right: 1rem;
+}
+
+@media screen and (max-width:850px) {
+    .ProductMain__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+
+    .Product__menu .Image__juicy img{
+        width: 250px;
+    }
+
+    .ProductMain__container .Image__cart img{
+        width: 300px;
+    }
+}
+
+/* 2nd section starts here */
+.ProductBest {
+    background:  #F5F5F5;;
+}
+
+.ProductBest .container .header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0;
+}
+
+.ProductBest .container .header img{
+    width: 140px;
+    padding: 1rem 0;
+}
+
+.ProductBest .container .header h2{
+    font-size: 3rem;
+    font-weight: 300;
+    font-family: ZCOOL XiaoWei;
+    color: rgba(8, 33, 97, 1);
+}
+
+.ProductBest .ProductBox{
+    display: flex;
+}
+
+.ProductBest .ProductBox .Category{
+    width: 320px;
+    border-right: 3px solid rgba(0, 0, 0, 0.14);
+    border-bottom: 3px solid rgba(0, 0, 0, 0.14);
+    padding: 0 1rem;
+}
+
+.ProductBest .ProductBox .Category h3{
+    font-size: 1.2rem;
+    font-family: Zilla slab;
+    font-weight: 600;
+    text-align: center;
+}
+
+.ProductBest .ProductBox .Category .category__box{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 0.7rem 0;
+    text-align: left;
+}
+
+.ProductBest .ProductBox .Category .category__box p{
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: Zilla slab;
+    color: rgba(0, 0, 0, 0.63);
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.ProductBest .ProductBox .Category .category__box p:hover{
+    color: #000;
+    font-weight: 500;
+}
+
+.ProductBest button{
+   background-color: rgba(254, 189, 17, 1);
+   color: #fff;
+   outline: none;
+   border: none;
+   padding: 10px 30px;
+   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.14);
+   border-radius: 20px;
+   margin-bottom: 3rem;
+   margin-top: 1.5rem;
+   font-weight: 500;
+}
+
+.ProductBest button:hover{
+    background-color: rgb(245, 188, 33);
+}
+
+.grid__container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 25px;
+    margin-left: 1rem;
+}
+
+
+.grid__container .grid__item img{
+    width: 200px;
+    transition: all 0.5s ease-in-out;
+}
+
+.grid__container .grid__item img:hover{
+    transform: scale(1.05);
+}
+
+@media screen and (max-width:1024px) {
+    .grid__container{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+@media screen and (max-width:768px) {
+    .ProductBest .ProductBox{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .grid__container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin: 3rem 0;
+    }
+
+    .ProductBest .container .header img{
+        width: 100px;
+    }
+
+}
+
+@media screen and (max-width:540px) {
+    .grid__container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin: 4rem 0;
+    }
+
+    .grid__container .grid__item img{
+        width: 300px;
+    }
+}

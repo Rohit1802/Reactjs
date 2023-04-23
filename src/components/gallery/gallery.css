@@ -148,6 +148,10 @@
         justify-content: space-between;
         padding-bottom: 2rem;
     }
+
+    .GalleryInfo .info p{
+        padding:0 1rem;
+    }
 }
 
 
@@ -168,6 +172,7 @@
     object-fit: cover;
     width: 320px;
     height: 300px;
+    margin: 0 auto;
     transition: all 0.5s ease;
     box-shadow: 0px 2px 5px rgba(0,0,0,0.70);
 }

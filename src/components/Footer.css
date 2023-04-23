@@ -129,7 +129,6 @@
 }
 
 
-
 @media  screen and (max-width:768px) {
     .footer-main{
         display: flex;
@@ -169,6 +168,15 @@
     background-color: rgba(254, 189, 17, 1);
     padding: 8px;
     border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer--bottomline .bottomlinks .box1:hover,
+.footer--bottomline .bottomlinks .box2:hover,
+.footer--bottomline .bottomlinks .box3:hover{
+    background-color: rgb(231, 176, 25);
 }
 
 .footer--bottomline .icon{

@@ -4,6 +4,7 @@ import { FiPhoneCall } from "react-icons/fi";
 import { IoLocationSharp } from 'react-icons/io5'
 import { FaFacebook, FaIndustry, FaInstagram, FaTwitter } from 'react-icons/fa'
 import './Footer.css'
+import {Link} from 'react-router-dom'
 
 function Footer() {
     return (
@@ -29,19 +30,19 @@ function Footer() {
                         <h3>Links</h3>
                         <ul>
                             <li>
-                                <a href='/'>Home</a>
+                                <Link to='/'>Home</Link>
                             </li>
                             <li>
-                                <a href='/'>About</a>
+                                <Link to='/about'>About</Link>
                             </li>
                             <li>
-                                <a href='/'>Products</a>
+                                <Link to='/product'>Products</Link>
                             </li>
                             <li>
-                                <a href='/'>Gallery</a>
+                                <Link to='/gallery'>Gallery</Link>
                             </li>
                             <li>
-                                <a href='/'>Contact Us</a>
+                                <Link to='/contact'>Contact Us</Link>
                             </li>
                         </ul>
                     </div>
